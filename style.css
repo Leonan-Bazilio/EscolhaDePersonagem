@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(60, 60, 60);
+}
+.container {
+  background-color: rgb(40, 40, 40);
+  width: 50%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+header > h1 {
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+}
+nav {
+  margin: 0.5rem auto;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnElement {
+  padding: 0.25rem 1rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.125rem solid red;
+  background: radial-gradient(
+    circle,
+    rgb(10, 10, 10) 10%,
+    rgb(40, 40, 40) 100%
+  );
+  color: rgb(194, 186, 186);
+}
+
+.activated {
+  box-shadow: 0 0 10px 8px rgba(255, 0, 0, 1);
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+  background-color: rgb(20, 20, 20);
+  min-height: 70vh;
+  padding: 2rem;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#btnStar {
+  background-color: rgb(20, 20, 20);
+  border: none;
+}
+.fa-star {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: rgb(255, 255, 0);
+}
+#btnStar:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.starSelected {
+  color: red;
+}
+.content > button {
+  border: none;
+}
+.content > button:hover {
+  cursor: pointer;
+}
+
+.hiden {
+  display: none;
+}
+
+h1,
+p {
+  margin: 0.5rem 0;
+  color: rgb(190, 190, 190);
+}
+img {
+  width: 250px;
+}
+
+h1 {
+  font-size: 2rem;
+}
